@@ -1,0 +1,17 @@
+{
+  "services": [
+    {
+      "name": "LOGFEEDER",
+      "identities": [
+        {
+          "name": "/smokeuser"
+        }
+      ],
+      "components": [
+        {
+          "name": "LOGFEEDER_MASTER"
+        }
+      ]
+    }
+  ]
+}
