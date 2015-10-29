@@ -2,7 +2,7 @@
 set -e
 
 
-#path containing start.jar file e.g. /opt/solr/latest/server
+#path containing logfeeder e.g. /opt/logfeeder
 LOGSEARCH_PATH=$1
 
 #Logfile e.g. /var/log/solr.log

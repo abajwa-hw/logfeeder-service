@@ -75,7 +75,7 @@ class Master(Script):
     self.configure(env)
     
 
-    cmd = params.service_packagedir + '/scripts/start.sh ' + params.logfeeder_dir + ' ' + params.logfeeder_log + ' ' + status_params.logfeeder_pid_file + ' ' + params.java64_home
+    cmd = params.service_packagedir + '/scripts/start_logfeeder.sh ' + params.logfeeder_dir + ' ' + params.logfeeder_log + ' ' + status_params.logfeeder_pid_file + ' ' + params.java64_home
   
     Execute('echo "Running cmd: ' + cmd + '"')    
     Execute(cmd, user=params.logfeeder_user)
